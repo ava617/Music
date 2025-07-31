@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<style>  
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&family=Yellowtail&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: gold;
+  font-family: 'Playfair Display', serif;
+  min-height: 100vh;
+}
+
+.topnav {
+  background-color: rgba(202, 162, 29, 0.9); /* goldish with transparency */
+  padding: 12px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topnav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 6px;
+}
+
+.topnav a:hover, .topnav a.active {
+  background-color: black;
+  color: gold;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 80px auto 100px;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+  border: 2px solid gold;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.contact-info p {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: gold;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #FFD700;
+}
+
+.social-follow {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social-follow h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 15px;
+  color: gold;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 1.5px solid gold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: gold;
+  color: black;
+  box-shadow: 0 0 15px gold;
+}
+
+</style>
+<body>
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="../songs/index.html">Songs</a>
+      <a href="../contacts/index.html" class="active">Contacts</a>
+    </div>
+  
+    <main class="contact-container">
+      <section class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:Itssonubhagat@gmail.com">Itssonubhagat@gmail.com</a></p>
+        <p>Phone: <a href="tel:+17802204999">780-220-4999</a></p>
+      </section>
+  
+      <section class="social-follow">
+        <h3>Follow Me</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/iamsonubhagat_/" target="_blank" aria-label="Instagram">Instagram</a>
+          <a href="https://www.youtube.com/channel/UCpI6OpeWHYwEWZIs7VqOOdQ" target="_blank" aria-label="YouTube">YouTube</a>
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">Facebook</a>
+          <a href="https://www.tiktok.com/@iamsonubhagat__" target="_blank" aria-label="TikTok">TikTok</a>
+        </div>
+      </section>
+    </main>
+  </body>
+  
+</html>
